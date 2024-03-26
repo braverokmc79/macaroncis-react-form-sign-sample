@@ -5,6 +5,7 @@ import Login from './components/StateLogin.jsx';
 //import Login from './components/RefLogin.jsx';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import NotFound from './pages/NotFound.jsx';
+import Footer from './pages/Footer.jsx';
 
 
 function App() {
@@ -22,6 +23,8 @@ function App() {
 				</Routes>
 
       </main>
+
+       <Footer/>
       </BrowserRouter>
     </div>
   );
